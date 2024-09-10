@@ -33,10 +33,10 @@ const d = 16;
 const e = 'Kevin';
 
 console.log(a < b); // Check if a is less than b
-console.log(c - d); // Subtract d from c
+console.log(c > d); // Check if c is greater than d
 console.log('Name' === 'Name'); // Check if both strings are equal
 console.log(false === false); // Check if both boolean values are equal
 console.log(e === 'Kevin'); // Check if e is equal to 'Kevin'
-console.log(a < b && b < c); // Check if a is less than b and b is less than c
-console.log(a + a - d); // Simple arithmetic: add a to itself and subtract d
-console.log(48 === Number('48')); // Check if 48 is equal to the number 48 (type coercion)
+console.log(a -  b < c); // Check if a is less than b and b is less than c
+console.log(a * a === d); // Simple arithmetic: add a to itself and subtract d
+console.log(48 == '48'); // Check if 48 is equal to the number 48 (type coercion)
